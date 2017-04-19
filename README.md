@@ -25,3 +25,15 @@ TODO:
 
 * Lazy Loading Routes (RR V4)
 * API Requests with data storage and offline fallback
+
+To Run:
+
+* Download Repo
+* Run `npm install` or `yarn install`
+* Run with `webpack-dev-server` for general dev by running `npm run dev`
+* Run with production mode and MAMP (or any other webserver) to test with Lighthouse by running `npm run build` and hooking up the `./dist` folder to the web server. Ensure the webserver has a redirect from http -> https
+
+To develop:
+
+* Write React components as you would in the `./src` directory
+* All of the code in `./src` is production ready but can be swapped for whatever configuration is needed
