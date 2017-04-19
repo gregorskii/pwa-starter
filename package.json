@@ -2,6 +2,7 @@
   "name": "pwa-starter",
   "version": "1.0.0",
   "description": "Progressive Webapp React Starter",
+  "repository": "git@github.com:gregorskii/pwa-starter.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bundle": "webpack --config ./build/webpack.config.js",
